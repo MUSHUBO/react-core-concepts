@@ -11,6 +11,8 @@ export default function Counter() {
     const counterStyle = {
         border: '2px solid skyblue',
         padding: 20,
+        borderRadius:20,
+        marginTop: 20,
     }
     return (
         <div style={counterStyle}>
