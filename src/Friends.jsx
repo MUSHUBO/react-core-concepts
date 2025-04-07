@@ -4,7 +4,7 @@ import Friend from "./Friend";
 export default function Friends({friendsPromise}) {
 
     const friends = use(friendsPromise);
-    console.log(friends)
+    // console.log(friends)
 
     return (
         <div className="friends">
